@@ -11,7 +11,7 @@ import time
 # 🔹 Google API Setup
 SCOPES = ['https://www.googleapis.com/auth/photoslibrary.readonly']
 CREDENTIALS_FILE = 'ENTER YOUR JSON PATH'  # Your credentials.json file
-TOKEN_FILE = 'YOUR TOKEN FILE'  # Your token.json file
+TOKEN_FILE = 'token.json'  # Your token.json file
 
 # 🔹 Function to Authenticate & Save Token
 def authenticate():
