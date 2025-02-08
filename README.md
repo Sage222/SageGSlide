@@ -97,3 +97,7 @@ Step 11:  Run SageGSlide.py.  It will launch a browser for your to authenticate.
 Step 12: Enjoy!
 
 
+Changelog 1.01 8/2/2025
+Added a Confirmation on Exit.
+
+
