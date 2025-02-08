@@ -87,6 +87,9 @@ Run "python -m pip install --upgrade pip"
 Step 9: Download the Google Photos APIs
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
+Step 10" Install Pillow
+Run "python -m pip install pillow"
+
 Step 10: Modify SageGSlide.py with your JSON file (LINE 13) and any other config changes you like and save.
 
 Step 11:  Run SageGSlide.py.  It will launch a browser for your to authenticate. (This should only happen once as it will then save a token).
