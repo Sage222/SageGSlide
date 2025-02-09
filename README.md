@@ -103,6 +103,9 @@ Added a Confirmation on Exit.
 Changelog 1.02 9/20/2025
 Added some error handling to prevent images stalling.
 
+Changelog 1.03 9/20/2025
+Added some QOL messaging.
+
 
 
 
