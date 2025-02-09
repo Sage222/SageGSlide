@@ -10,7 +10,7 @@ import time
 
 # 🔹 Google API Setup
 SCOPES = ['https://www.googleapis.com/auth/photoslibrary.readonly']
-CREDENTIALS_FILE = 'client_secret_310838804871-3kiaqjaa79un6ttbcf3p5uq36sjft73o.apps.googleusercontent.com.json'  # Your credentials.json file
+CREDENTIALS_FILE = 'YOUR JSON FILE'  # Your credentials.json file
 TOKEN_FILE = 'token.json'  # Your token.json file
 
 print("Welcome to SageGSlide. Please wait a moment while we obtain the list of your albums from Google.")
