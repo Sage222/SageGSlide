@@ -106,6 +106,8 @@ Added some error handling to prevent images stalling.
 Changelog 1.03 9/2/2025
 Added some QOL messaging.
 
+Changelog 5.2 11/2/2025
+Complete re-write with Debug outputs, retries on failures and using Method: mediaItems.batchGet to avoid Google auth issues.
 
 
 
