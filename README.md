@@ -6,7 +6,7 @@ Slideshow is then displayed fullscreen, black border with current time on Bottom
 
 Needs you to setup Google Photos API access for your account. (Not hard).
 
-Exit slideshow with Spacebar, ESC or mouseclick/screen tap. (For touchscreen devices).
+Exit slideshow mouseclick/screen tap. (For touchscreen devices).
 
 Photos are stored in Memory only and removed at the end of the Slideshow.
 
@@ -90,7 +90,7 @@ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 goog
 Step 10" Install Pillow
 Run "python -m pip install pillow"
 
-Step 10: Modify SageGSlide.py with your JSON file (LINE 13) and any other config changes you like and save.
+Step 10: Modify SageGSlide.py with your JSON file (LINE 36) and any other config changes you like and save.
 
 Step 11:  Run SageGSlide.py.  It will launch a browser for your to authenticate. (This should only happen once as it will then save a token).
 
