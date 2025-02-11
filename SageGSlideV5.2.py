@@ -33,7 +33,7 @@ def authenticate_google_photos():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file('client_secret_310838804871-3kiaqjaa79un6ttbcf3p5uq36sjft73o.apps.googleusercontent.com.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file('YOUR CREDENTIAL JSON FILE HERE', SCOPES)  # put your Credential JSON file here!
             creds = flow.run_local_server(port=0)
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
