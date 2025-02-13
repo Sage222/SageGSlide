@@ -109,5 +109,8 @@ Added some QOL messaging.
 Changelog 5.2 11/2/2025
 Complete re-write with Debug outputs, retries on failures and using Method: mediaItems.batchGet to avoid Google auth issues.
 
+Changelog 6.1 13/2/2025
+Moved to GUI interface for Album Selection. Minor tweaks.
+
 
 
