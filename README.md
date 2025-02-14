@@ -112,5 +112,8 @@ Complete re-write with Debug outputs, retries on failures and using Method: medi
 Changelog 6.1 13/2/2025
 Moved to GUI interface for Album Selection. Minor tweaks.
 
+Changelog 8.1 15/2/2025
+Added Randomisation of photos, minimise option or exit optiopn, GUI album choice and load 50 photos at a time (and obtain the next batch in the background to avoid long load times for large albums)
+
 
 
