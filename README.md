@@ -115,5 +115,8 @@ Moved to GUI interface for Album Selection. Minor tweaks.
 Changelog 8.1 15/2/2025
 Added Randomisation of photos, minimise option or exit optiopn, GUI album choice and load 50 photos at a time (and obtain the next batch in the background to avoid long load times for large albums)
 
+Changelog 11 27/2/2025
+Added multiple album selection and current and max weather temps.
+
 
 
