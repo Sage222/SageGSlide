@@ -78,23 +78,26 @@ Scroll to Test Users section.
 Click Add Users → Enter your Google email.
 Click Save & Continue.
 
-Step 8: Install PIP on your PC.
+Install PIP on your PC.
 Run 'cmd' as admin on your PC.
 ensure python is working properly by running 
 "Python --version"
 Run "python -m pip install --upgrade pip"
 
-Step 9: Download the Google Photos APIs
+Download the Google Photos APIs
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
-Step 10" Install Pillow
+Install Pillow
 Run "python -m pip install pillow"
 
-Step 10: Modify SageGSlide.py with your JSON file (LINE 36) and any other config changes you like and save.
+Installer Tkinter
+Run "python -m pip install tk"
 
-Step 11:  Run SageGSlide.py.  It will launch a browser for your to authenticate. (This should only happen once as it will then save a token).
+Modify SageGSlide.py with your CLIENT SECRET JSON file and any other config changes you like and save.
 
-Step 12: Enjoy!
+Run "python SageGSlide.py".  It will launch a browser for your to authenticate. (This should only happen once as it will then save a local token to the same path as the py file.).
+
+Enjoy!
 
 
 Changelog 1.01 8/2/2025
