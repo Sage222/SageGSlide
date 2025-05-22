@@ -21,8 +21,8 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 MAX_RETRIES = 3  # Max retries for fetching an image
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
-FRANKSTON_LAT = -38.144  # Latitude for Frankston, Australia
-FRANKSTON_LON = 145.122  # Longitude for Frankston, Australia
+FRANKSTON_LAT = -31.144  # Latitude for Weather Location
+FRANKSTON_LON = 100.122  # Longitude for Weather Location
 
 # Weather code to icon mapping
 WEATHER_ICONS = {
@@ -69,7 +69,7 @@ def authenticate_google_photos():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file('client_secret.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file('PUT IN CLIENT SECRET JSON FILE HERE!!', SCOPES)
             creds = flow.run_local_server(port=0)
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
