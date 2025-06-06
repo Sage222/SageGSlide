@@ -64,8 +64,7 @@ For Python, save the credentials.json file in the same folder as the SageGSlide.
 
 
 Step 6: Authorize Access to Google Photos:
-You need to request scopes to the ReadOnly GooglePhotos API.  https://console.cloud.google.com/
-(www.googleapis.com/auth/photoslibrary.readonly)
+You need to request scopes to the ReadOnly GooglePhotos API through the Google cloud console https://console.cloud.google.com/
 This allows your app to read photos from your Google Photos library.
 
 Step 7: Add your Google Account as a Test User
